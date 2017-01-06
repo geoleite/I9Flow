@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/i9flow">
+    <Resource auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver" maxActive="5" maxIdle="0" maxWait="-1" name="jdbc/easyportalds" password="usr_portal" type="javax.sql.DataSource" url="jdbc:oracle:thin:@localhost:1521:xe" username="usr_portal"/>
+    <Resource auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver" maxActive="5" maxIdle="0" maxWait="-1" name="jdbc/fluxods" password="usr_fluxo" type="javax.sql.DataSource" url="jdbc:oracle:thin:@localhost:1521:xe" username="usr_fluxo"/>
+
+</Context>
